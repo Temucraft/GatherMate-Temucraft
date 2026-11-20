@@ -46,6 +46,7 @@ Locales\GatherMate-zhCN.lua
 Locales\GatherMate-zhTW.lua
 Locales\GatherMate-ruRU.lua
 
+TemucraftZones.lua
 GatherMate.lua
 Display.lua
 Collector.lua

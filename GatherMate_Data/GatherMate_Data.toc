@@ -1,6 +1,6 @@
 ﻿## Interface: 30300
 ## DefaultState: disabled
-## Notes: Wowhead Data dump for GatherMate 
+## Notes: Herb, ore, gas, fishing and treasure spots of the Temucraft world (import them in GatherMate options)
 ## Notes-zhTW: Wowhead 資料轉存至採集助手 GatherMate
 ## Notes-zhCN: Wowhead 资料转存至采集助手 GatherMate
 ## Title: GatherMateData

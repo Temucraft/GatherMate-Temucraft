@@ -159,6 +159,10 @@ local zone_data = { -- {width, height, zoneID}
 	TheArgentColiseum2 = { 493.330017089844, 739.996017456055, 142},
 	HrothgarsLanding = { 3677.08312988281, 2452.083984375, 143},
 }
+-- Temucraft: the zones of our maps (TemucraftZones.lua, made by tools/gen_gm_data.py from our WorldMapArea.dbc)
+for mapFile, v in pairs(GatherMateTemucraftZones or {}) do
+	if not zone_data[mapFile] then zone_data[mapFile] = v end
+end
 -- meta table to return 0 for all unknown zones, instances, and what not
 local emptyZoneTbl = {0,0,0}
 setmetatable(zone_data, { __index = function(t, k) ChatFrame1:AddMessage("GatherMate is missing data for "..k); return emptyZoneTbl end })
